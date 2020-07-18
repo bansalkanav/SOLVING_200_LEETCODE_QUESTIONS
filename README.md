@@ -13,7 +13,7 @@ Because later on you will be building the projects using these languages. If you
 You just have to be disciplined and punctual to become a member of this group. You will be removed from the group if any of this lags.
 
 ## How much hours per day should you dedicate for this?
-Three Hours per dedication.
+Three Hours per day dedication.
 
 ## WARNINGS:
 - The path ahead is going to be bumpy and difficult. Join at your own risk.
