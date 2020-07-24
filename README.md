@@ -1,4 +1,4 @@
-# coding_noob_to_pro
+# SOLVING 200 LEETCODE QUESTIONS
 
 ## What is this community?
 This study group will serve the purpose of building an open source community which codes and prepare for Tier-1 companies together. The aim is not to become a competitive programmer. Go ahead and add your friends or siblings.
