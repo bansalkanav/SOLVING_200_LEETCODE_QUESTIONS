@@ -6,8 +6,8 @@ This study group will serve the purpose of building an open source community whi
 ## Which programming language to pick?
 Any programming language with OOPs is acceptable. But Java or Python is recommended.
 
-## Why Java or Python?
-Because later on you will be building the projects using these languages. If you are beginner in java, watch this https://www.youtube.com/watch?v=rV_3Lewxx6o
+## Why OOPs?
+Because later on you will be building the projects using these languages.
 
 ## What do you need to become a member of this group?
 You just have to be disciplined and punctual to become a member of this group. You will be removed from the group if any of this lags.
