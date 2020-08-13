@@ -19,3 +19,8 @@ Three Hours per day dedication.
 - The path ahead is going to be bumpy and difficult. Join at your own risk.
 - Dedicate at-least 3 hours per day. Sundays will be off. Over doing something is also dangerous.
 - We will be coding for at-least 2 months daily to see some improvements. 
+
+| LeetCode Problem | Available Solutions |
+| :---: | :---: |
+| 1480. Running Sum of 1d Array | 'python3' 'cpp' 'java' |
+| 1470. Shuffle the Array | 'python3' 'cpp' 'java' |
