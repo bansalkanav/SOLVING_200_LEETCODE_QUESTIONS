@@ -22,5 +22,5 @@ Three Hours per day dedication.
 
 | Problem Number | Problem Name | Available Solutions |
 | :---: | :---: | :---: |
-| 1480 | Running Sum of 1d Array | `python3` `cpp` `java` |
-| 1470 | Shuffle the Array | `python3` `cpp` `java` |
+| LeetCode #1480 | Running Sum of 1d Array | `python3` `cpp` `java` |
+| LeetCode #1470 | Shuffle the Array | `python3` `cpp` `java` |
