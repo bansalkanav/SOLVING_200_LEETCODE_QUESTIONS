@@ -1,11 +1,11 @@
-# C++ code coming soon
-
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
-        for(int i = 1; i < size(nums); i++){
-            nums[i] += nums[i-1];
+        vector<int>prefix(nums.size());
+        prefix[0]=nums[0];
+        for(int i=1;i<nums.size();i++){
+            prefix[i]=prefix[i-1]+nums[i];
         }
-        return nums;
+        return prefix;
     }
 };
