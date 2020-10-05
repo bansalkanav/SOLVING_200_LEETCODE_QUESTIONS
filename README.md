@@ -6,7 +6,7 @@ Welcome to Solving 200 Leetcode Questions channel.
 
 This is a study group which will serve the purpose of building an open source community which codes and prepare for job interviews together. The aim is not to become a competitive programmer. Go ahead and add your friends or siblings.
 
-**Which programming language to pick?
+**Which programming language to pick?**
 
 Any programming language with OOPs is acceptable. But Java/Python3 is recommended. CPP is also a good choice because it is fast when compared to any other programming language.
 
@@ -14,19 +14,19 @@ Any programming language with OOPs is acceptable. But Java/Python3 is recommende
 
 Because later on we might build the projects. Java and Python3 have some of the best Frameworks that you can use to build any production level application. 
 
-**What do you need to become a member of this group?
+**What do you need to become a member of this group?**
 
 You just have to be disciplined and punctual to become a member of this group. You will be removed from the group in case of any misconduct or indiscipline is observed.
 
-**How much hours per day should you dedicate for this?
+**How much hours per day should you dedicate for this?**
 
 Three Hours per day dedication. It all depends on your speed of learning.
 
-**When are we starting?
+**When are we starting?**
 
 Starting 10th August, 2020 you will receive daily tasks. Till that time create a Leetcode account and start practicing the basics in your favourite programming language.
 
-:regional_indicator_q: What to learn before we receive the daily task?
+**What to learn before we receive the daily task?**
 
 In any programming language of your choice, you should be comfortable with:
 Variables, Data types(int, float, char, string, etc), Operators(arithmetic, comparison, bitwise, etc), Control Statements(if-else, for and while loop, break and continue)
@@ -38,9 +38,9 @@ All the best!
 
 :warning:  WARNINGS:
 
-    :small_orange_diamond: The path ahead is going to be bumpy and difficult. Join at your own risk.
-    :small_orange_diamond: Dedicate at-least 3 hours per day. Sundays will be off. Over doing something is also dangerous.
-    :small_orange_diamond: We will be coding for at-least 2 months daily to see some improvements.
+    1. The path ahead is going to be bumpy and difficult. Join at your own risk.
+    2. Dedicate at-least 3 hours per day. Sundays will be off. Over doing something is also dangerous.
+    3. We will be coding for at-least 2 months daily to see some improvements.
 
 
 
