@@ -22,9 +22,7 @@ class Solution {
             rs.add(ls);
             return;
         }
-        
-        
-        
+           
         for(int i=start;i<nums.length;i++)
         {
             swap(nums,i,start);
