@@ -3,7 +3,7 @@
 
 | Problem Number | Problem Name | Available Solutions |
 | :---: | :---: | :---: |
-| LeetCode 1480 | Running Sum of 1d Array | `python3` `cpp` `java` |
+| LeetCode 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [`python3`](https://github.com/bansalkanav/SOLVING_200_LEETCODE_QUESTIONS/blob/master/200_LeetCode_Questions/Python/D01P1_LeetCode_1480.py) `cpp` `java` |
 | LeetCode 1470 | Shuffle the Array | `python3` `cpp` `java` |
 | LeetCode 1431 | Kids With the Greatest Number of Candies | `python3` `cpp` `java` |
 | LeetCode 1108 | Defanging an IP Address | `python3` `cpp` `java` |
