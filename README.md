@@ -2,6 +2,8 @@
 
 Welcome to Solving 200 Leetcode Questions channel.
 
+**Join our discord community to get daily LeetCode challenges - [Click Here to join](https://discord.gg/TtMT4AW)**
+
 **What is this channel about?**
 
 This is a study group which will serve the purpose of building an open source community which codes and prepare for job interviews together. The aim is not to become a competitive programmer. Go ahead and add your friends or siblings.
