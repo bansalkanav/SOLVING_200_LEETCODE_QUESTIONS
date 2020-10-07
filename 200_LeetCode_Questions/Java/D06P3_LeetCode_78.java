@@ -15,14 +15,14 @@ class Solution {
             //we can map elements as per the different binary representation till total no. of subsets 
             // i.e. for total no. of subsets=8 and given set is [1,2,3]
             // binary representation     -- > subset
-            //   0.     0 0 0 --> [] empty 
-            //   1.     0 0 1 --> [3]   
-            //   2.     0 1 0 --> [2]
-            //   3.     0 1 1 --> [2,3]
-            //   4.     1 0 0 --> [1]
-            //   5.     1 0 1 --> [1,3]
-            //   6.     1 1 0 --> [1,3]
-            //   7.     1 1 1 -->[1,2,3]
+            //   0.     0 0 0 --> []  not selecting any element 
+            //   1.     0 0 1 --> [1] selecting 1st element   
+            //   2.     0 1 0 --> [2] selecting 2nd element
+            //   3.     0 1 1 --> [1,2] selecting 1st and 2nd element
+            //   4.     1 0 0 --> [3] selecting 3rd element
+            //   5.     1 0 1 --> [1,3] selecting 1st and 3rd element
+            //   6.     1 1 0 --> [2,3] selecting 2nd and 3rd element
+            //   7.     1 1 1 -->[1,2,3] selecting all elements 
 
             for(int j=0;j<nums.length;j++)
             {
