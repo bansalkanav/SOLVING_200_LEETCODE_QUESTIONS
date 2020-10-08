@@ -1,30 +1,39 @@
+// Problem : Trapping Rain Water
+
+// Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+// Elevation map : https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png
+// The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. 
+// In this case, 6 units of rain water (blue section) are being trapped. Thanks Marcos for contributing this image!
+
+// Example:
+// Input: [0,1,0,2,1,0,1,3,2,1,2,1]
+// Output: 6
+    
+// Solution :
+
 class Solution {
 public:
     int trap(vector<int>& height) {
         int n = height.size();
-        vector<int> MAX_LEFT(n);
-        vector<int> MAX_RIGHT(n);
-        
-        int max_rt = -1, max_lt = -1;
-        
-        //Populating MAX_RIGHT and MAX_LEFT
-        for(int i = n-1; i>=0; i--){
-            MAX_RIGHT[i] = max_rt;
-            max_rt = max(max_rt, height[i]);
+        int total = 0;
+        int L=INT_MIN,R=INT_MIN;
+        vector<int> left(n,0);
+        vector<int> right(n,0);
+        for(int i=0;i<n;i++)
+        {
+            L = max(L,height[i]);
+            left[i] = L;
+            R = max(R,height[n-i-1]);
+            right[n-i-1] = R;
         }
-    
-        for(int i = 0; i<=n-1; i++){
-            MAX_LEFT[i] = max_lt;
-            max_lt = max(max_lt, height[i]);
+        for(int i=0;i<n;i++){
+           total = total + min(left[i],right[i]) - height[i];
         }
-        
-        int result = 0;
-        for(int i = 0; i<=n-1; i++){
-            if(height[i] < MAX_LEFT[i] && height[i] < MAX_RIGHT[i]) 
-                result += min(MAX_LEFT[i], MAX_RIGHT[i]) - height[i];
-        }
-
-        return result;
-
+        return total;
+    }
+    Solution(){
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
     }
 };
