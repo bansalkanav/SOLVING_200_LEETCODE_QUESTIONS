@@ -2,7 +2,7 @@
 
 Welcome to Solving 200 Leetcode Questions channel.
 
-### Follow me and don't forget to give this repo a Star :star:
+### Please don't forget to give this repo a Star :star:
 
 ## Join our discord community to get daily LeetCode challenges - [Click Here to join](https://discord.gg/TtMT4AW)
 
