@@ -1,23 +1,24 @@
-// Runtime: 0 ms, faster than 100.00% of Java online submissions for How Many Numbers Are Smaller Than the Current Number.
-// Memory Usage: 39.5 MB, less than 83.12% of Java online submissions for How Many Numbers Are Smaller Than the Current Number.
+// Runtime: 11 ms, faster than 53.48% of Java online submissions for How Many Numbers Are Smaller Than the Current Number.
+// Memory Usage: 39.4 MB, less than 13.35% of Java online submissions for How Many Numbers Are Smaller Than the Current Number.
 
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
-        int[] freq = new int[101]; 
-        for (int i = 0; i < nums.length; i++) {
-                freq[nums[i]]++;
-        }
-        int count = 0;
-        for (int i = 0; i < freq.length; i++) {
-            if (freq[i] != 0) { 
-                int f = freq[i];
-                freq[i] = count;
-                count = count + f;
+        
+        int n = nums.length;
+        int temp[] = new int[n];
+        
+        for(int i=0; i<n; i++){
+            int count = 0;
+            for(int j=0; j<n; j++){
+                if(nums[j]<nums[i])
+                    count++;
             }
+            temp[i]=count;
         }
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = freq[nums[i]];
-        }
-        return nums;
+        
+        return temp;
+        
     }
+    
+    
 }
